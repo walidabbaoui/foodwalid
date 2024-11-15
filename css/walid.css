@@ -1,0 +1,195 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://img.cuisineaz.com/660x495/2021/04/07/i168220-tajine-legumes-marocain.webp') ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover ;
+    background-position: 50%;
+    position: absolute;
+    background-size: cover;
+    padding: 0;
+    position: absolute;
+    width: 100%;
+    background-color: black;
+    
+
+}
+h1 {
+   color: white;
+   text-align: center;
+   padding-top: 20px;
+}
+
+
+p { color: rgb(39, 240, 8); 
+    
+
+}
+header {
+    background-color: #930a0a; /* Rouge foncé */
+    color: white;
+    padding: 15px 0;
+    border-radius: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+    text-align: center;
+}
+
+.plat {
+    border: 1px solid #ccc ;
+    border-radius: 5px;
+    padding: 10px;
+    display: inline-block;
+    margin: 20px;
+    max-width: 300px;
+}
+
+.plat img {
+    max-width: 100%;
+    height: auto ;
+    border-radius: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form input, form textarea {
+    margin: 5px;
+    padding: 10px;
+    width: 300px;
+}
+
+button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: black;
+    color: white;
+}
+h2 { color: white ;
+
+
+}
+
+
+
+
+.plat img:hover {       
+    transform: scale(1.1); 
+
+
+}
+   
+.plat {  border-radius: 30px;     }
+
+.id {  border-radius: 20px; 
+     
+}
+/* From Uiverse.io by aguerquin */ 
+.rating > label {
+    margin-right: 4px;
+  }
+  
+  .rating:not(:checked) > input {
+    display: none;
+  }
+  
+  .rating:not(:checked) > label {
+    float: right;
+    cursor: pointer;
+    font-size: 30px;
+  }
+  
+  .rating:not(:checked) > label > svg {
+    fill: #666;
+    transition: fill 0.3s ease;
+  }
+  
+  .rating > input:checked ~ label > svg {
+    fill: #ffa723;
+  }
+  
+  .rating:not(:checked) > label:hover ~ label > svg,
+  .rating:not(:checked) > label:hover > svg {
+    fill: #ff9e0b;
+  }
+  
+  #star1:hover ~ label > svg,
+  #star1:hover > svg {
+    fill: #a23c3c !important;
+  }
+  
+  #star2:hover ~ label > svg,
+  #star2:hover > svg {
+    fill: #99542d !important;
+  }
+  
+  #star3:hover ~ label > svg,
+  #star3:hover > svg {
+    fill: #9f7e18 !important;
+  }
+  
+  #star4:hover ~ label > svg,
+  #star4:hover > svg {
+    fill: #22885e !important;
+  }
+  
+  #star5:hover ~ label > svg,
+  #star5:hover > svg {
+    fill: #7951ac !important;
+  }
+  
+  #star1:checked ~ label > svg {
+    fill: #ef4444;
+  }
+  
+  #star2:checked ~ label > svg {
+    fill: #e06c2b;
+  }
+  
+  #star3:checked ~ label > svg {
+    fill: #eab308;
+  }
+  
+  #star4:checked ~ label > svg {
+    fill: #19c37d;
+  }
+  
+  #star5:checked ~ label > svg {
+    fill: #ab68ff;
+  }
